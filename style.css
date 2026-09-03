@@ -170,7 +170,7 @@ b {
 }
 
 .spotify {
-    background: #1db954;
+    background-color: #1db954 !important;
 }
 
 .spotify:hover {

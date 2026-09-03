@@ -1,0 +1,205 @@
+* { box-sizing: border-box; }
+
+body {
+    min-width: 320px;
+    margin: 0;
+    background-color: rgb(26, 26, 32);
+}
+
+.card_list {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 100px;
+    padding: 0 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    width: fit-content;
+    max-width: 100%;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(26, 26, 32);
+    border: 2px solid #490dee;
+    border-radius: 15px;
+    box-shadow: 0 0 12px 9px rgba(0, 0, 0, .73);
+}
+
+.profilbild {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 26px;
+    object-fit: cover;
+    border: 3px solid #4175ec;
+    border-radius: 50%;
+    box-shadow: 0 0 12px 9px rgba(6, 90, 199, .45);
+    transition: transform .2s ease;
+}
+
+.profilbild:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 6px 4.5px rgba(20, 218, 253, .493);
+}
+
+h1 {
+    margin: 0 0 14px;
+    color: white;
+    transition: transform .2s ease;
+}
+
+h1:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 20px #70FDED;
+}
+
+.untertitel {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to top, #083aad 0%, #1547d1 50%, #3b82f6 100%);
+    border-radius: 15px;
+    font-size: large;
+    transition: transform .2s ease;
+}
+
+.info {
+    color: white;
+    line-height: 25px;
+    font-size: large;
+    transition: transform .2s ease;
+}
+
+.untertitel:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 6px 4.5px rgba(20, 218, 253, .493);
+}
+
+.info:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 10px rgba(112, 253, 237, .5);
+}
+
+b {
+    color: #4575e4;
+}
+
+.kann_list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kann {
+    margin: 0 20px 20px;
+    padding: 5px 10px;
+    color: white;
+    border: 2px solid #6162643f;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 490px;
+    margin: 0 auto;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 650;
+    text-decoration: none;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.button_text {
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.git {
+    background: #2603e9;
+}
+
+.git:hover {
+    box-shadow: 0 0 12px 4px rgba(0, 68, 255, .55);
+}
+
+.dis {
+    background: #29a7f0;
+}
+
+.dis:hover {
+    box-shadow: 0 0 12px 4px rgba(20, 218, 253, .45);
+}
+
+.tiktok {
+    background: #e903b7;
+}
+
+.tiktok:hover {
+    box-shadow: 0 0 12px 4px rgba(253, 20, 164, .45);
+}
+
+.youtube {
+    background: #ff0000;
+}
+
+.youtube:hover {
+    box-shadow: 0 0 12px 4px rgba(255, 0, 0, .55);
+}
+
+@media (max-width: 520px) {
+    .card_list {
+        margin-top: 30px;
+        padding: 0 12px 30px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 30px 18px;
+    }
+
+    .profilbild {
+        width: 160px;
+        height: 160px;
+    }
+
+    .info {
+        font-size: medium;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .kann {
+        margin-inline: 5px;
+        font-size: medium;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+}

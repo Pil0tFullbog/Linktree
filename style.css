@@ -153,6 +153,22 @@ b {
     box-shadow: 0 0 12px 4px rgba(255, 0, 0, .55);
 }
 
+.disboard {
+    background: #5865f2;
+}
+
+.disboard:hover {
+    box-shadow: 0 0 12px 4px rgba(88, 101, 242, .55);
+}
+
+.twitch {
+    background: #9146ff;
+}
+
+.twitch:hover {
+    box-shadow: 0 0 12px 4px rgba(145, 70, 255, .55);
+}
+
 @media (max-width: 520px) {
     .card_list {
         margin-top: 30px;

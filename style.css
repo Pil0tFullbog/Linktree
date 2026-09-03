@@ -1,11 +1,16 @@
+/* ...existing code... */
+
+/* Grundlegender Reset für alle Elemente */
 * { box-sizing: border-box; }
 
+/* Basis-Styling für den gesamten Body */
 body {
     min-width: 320px;
     margin: 0;
     background-color: rgb(26, 26, 32);
 }
 
+/* Container, der die komplette Karte zentriert */
 .card_list {
     display: flex;
     justify-content: center;
@@ -16,7 +21,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.card {
+/* Hauptkarte mit dunklem Hintergrund und Rahmen */
+.card{
     width: fit-content;
     max-width: 100%;
     padding: 50px;
@@ -27,6 +33,7 @@ body {
     box-shadow: 0 0 12px 9px rgba(0, 0, 0, .73);
 }
 
+/* Profilbild als runder Avatar */
 .profilbild {
     display: block;
     width: 200px;
@@ -39,22 +46,26 @@ body {
     transition: transform .2s ease;
 }
 
+/* Hover-Effekt für das Profilbild */
 .profilbild:hover {
     transform: scale(1.05);
     box-shadow: 0 0 6px 4.5px rgba(20, 218, 253, .493);
 }
 
+/* Titel-Stil für den Namen */
 h1 {
     margin: 0 0 14px;
     color: white;
     transition: transform .2s ease;
 }
 
+/* Hover-Effekt für den Namen */
 h1:hover {
     transform: scale(1.05);
     text-shadow: 0 0 20px #70FDED;
 }
 
+/* Textabschnitt für Beschreibung und Info */
 .info {
     color: white;
     line-height: 25px;
@@ -62,21 +73,25 @@ h1:hover {
     transition: transform .2s ease;
 }
 
+/* Hover-Effekt für Informations-Text */
 .info:hover {
     transform: scale(1.05);
     text-shadow: 0 0 10px rgba(112, 253, 237, .5);
 }
 
+/* Hervorhebung in blauer Farbe */
 b {
     color: #4575e4;
 }
 
+/* Container für die Fähigkeiten/Skills */
 .kann_list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
+/* Einzelnes Skill-Tag */
 .kann {
     margin: 0 20px 20px;
     padding: 5px 10px;
@@ -86,6 +101,7 @@ b {
     font-size: large;
 }
 
+/* Container für alle Link-Buttons */
 .buttons {
     display: flex;
     justify-content: center;
@@ -95,6 +111,7 @@ b {
     margin: 0 auto;
 }
 
+/* Allgemeiner Button-Stil für Links */
 .button {
     display: flex;
     align-items: center;
@@ -112,15 +129,18 @@ b {
     transition: transform .2s ease, box-shadow .2s ease;
 }
 
+/* Text innerhalb des Buttons */
 .button_text {
     color: white;
     text-decoration: none;
 }
 
+/* Hover-Effekt für Buttons */
 .button:hover {
     transform: scale(1.05);
 }
 
+/* GitHub Button */
 .git {
     background: #2603e9;
 }
@@ -129,6 +149,7 @@ b {
     box-shadow: 0 0 12px 4px rgba(0, 68, 255, .55);
 }
 
+/* Discord Button */
 .dis {
     background: #29a7f0;
 }
@@ -137,6 +158,7 @@ b {
     box-shadow: 0 0 12px 4px rgba(20, 218, 253, .45);
 }
 
+/* TikTok Button */
 .tiktok {
     background: #e903b7;
 }
@@ -145,6 +167,7 @@ b {
     box-shadow: 0 0 12px 4px rgba(253, 20, 164, .45);
 }
 
+/* YouTube Button */
 .youtube {
     background: #ff0000;
 }
@@ -153,6 +176,7 @@ b {
     box-shadow: 0 0 12px 4px rgba(255, 0, 0, .55);
 }
 
+/* Discord Board Button */
 .disboard {
     background: #5865f2;
 }
@@ -161,6 +185,7 @@ b {
     box-shadow: 0 0 12px 4px rgba(88, 101, 242, .55);
 }
 
+/* Twitch Button */
 .twitch {
     background: #9146ff;
 }
@@ -169,14 +194,16 @@ b {
     box-shadow: 0 0 12px 4px rgba(145, 70, 255, .55);
 }
 
+/* Spotify Button */
 .spotify {
-    background-color: #1db954 !important;
+    background-color: #1db954;
 }
 
 .spotify:hover {
     box-shadow: 0 0 12px 4px rgba(29, 185, 84, .55);
 }
 
+/* Responsive Design für kleine Mobilgeräte */
 @media (max-width: 520px) {
     .card_list {
         margin-top: 30px;

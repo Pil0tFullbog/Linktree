@@ -1,6 +1,6 @@
 # Pil0t_Fullbog Linktree
 
-Eine übersichtliche persönliche Linktree-Seite für **Pil0t_Fullbog**. Hier sind Social-Media-Profile, Community, Projekte und weitere wichtige Links an einem Ort gebündelt.
+Eine übersichtliche persönliche Linktree-Seite für **Pil0t_Fullbog**. Hier sind Social-Media-Profile, Community-Links und weitere wichtige Seiten an einem Ort gebündelt.
 
 ## Live-Version
 
@@ -25,6 +25,7 @@ Das Projekt ist eine schlanke statische Website ohne Frameworks oder externe Abh
 - `style.css` - Layout, Farben, Hover-Effekte und responsive Darstellung
 - `CNAME` - konfigurierte eigene Domain
 - `image.png` - Profilbild
+- `.github/workflows/pages.yml` - automatische Veröffentlichung über GitHub Pages
 
 ## Lokal starten
 

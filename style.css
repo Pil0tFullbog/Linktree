@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
     margin-top: 100px;
     padding: 0 20px 40px;
+    padding-bottom: 900px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -54,27 +55,11 @@ h1:hover {
     text-shadow: 0 0 20px #70FDED;
 }
 
-.untertitel {
-    width: fit-content;
-    margin: 0 auto;
-    padding: 10px;
-    color: white;
-    background: linear-gradient(to top, #083aad 0%, #1547d1 50%, #3b82f6 100%);
-    border-radius: 15px;
-    font-size: large;
-    transition: transform .2s ease;
-}
-
 .info {
     color: white;
     line-height: 25px;
     font-size: large;
     transition: transform .2s ease;
-}
-
-.untertitel:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 6px 4.5px rgba(20, 218, 253, .493);
 }
 
 .info:hover {
